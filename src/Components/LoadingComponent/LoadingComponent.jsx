@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from 'antd';
 import styles from './LoadingComponent.module.scss';
 export function LoadingComponent({ loading }) {
   return (
@@ -10,9 +9,9 @@ export function LoadingComponent({ loading }) {
           : [styles.loading, styles.off].join(' ')
       }
     >
-      <Button type="primary" loading size="larger">
-        로딩중
-      </Button>
+      <p>
+        <span>로딩중</span>
+      </p>
     </div>
   );
 }
