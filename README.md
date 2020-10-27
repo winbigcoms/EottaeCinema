@@ -6,10 +6,14 @@
 2020.08.24 ~ 2020.09.23
 
 조장 백승일 [winbigcoms](https://github.com/winbigcoms)
+프론트 엔드: 영화 및 영화관 선택 후 예매 정보 선택 페이지, 좌석 선택 페이지, 예매 및 완료 페이지, 영화 시간표 페이지
+백 엔드: server-to-server통신을 위한 express서버, RESTAPI 제작 및 DB설계
 <br>
 조원 최예린 [soda-cloud](https://github.com/soda-cloud)
+메인 페이지, 헤더 및 푸터
 <br>
 조원 류동우 [Detrox20](https://github.com/Detrox20)
+영화 상세정보 
 
 ## 롯데시네마 클론 코딩 프로젝트
 
@@ -19,7 +23,7 @@
 
 [github 주소](https://github.com/duckhutel)
 
-![ottea](https://user-images.githubusercontent.com/62285847/93991782-9fd3d280-fdc7-11ea-84c5-7b7909fe0170.png)
+![ottea](https://user-images.githubusercontent.com/62285847/93991782-9fd3d280-fdc7-11ea-84c5-7b7909fe0170.png)](https://youtu.be/afCc1eEg_xc)
 
 ## 주제
 
@@ -107,4 +111,10 @@
 14. connected-react-router
 15. react-owl-carousel
 16. react-modal
-17. react-custom-crollbars
+17. react-custom-scrollbars
+
+## 배운점
+- react component를 만들 때, 페이지의 흐름을 잘 파악하고 있어야 페이지 렌더링을 최소화하고 React.memo 등을 이용해서 최적화를 할 수 있다. 
+- 성능 체크 없이 습관적으로 react.memo를 사용하는 것은 불필요한 최적화가 될 수 있다.
+- ducks 패턴을 이용함으로 redux의 action코드의 가독성을 높이고 직관적으로 만들 수 있었다.
+- module.scss를 사용하여 번들링시 css 선택자에 의해 생길 수 있는 문제를 회피했다.
