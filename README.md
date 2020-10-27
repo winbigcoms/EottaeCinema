@@ -22,9 +22,8 @@
 [배포 주소](https://eottaecinema.herokuapp.com/)
 
 [github 주소](https://github.com/duckhutel)
-
-![ottea](https://user-images.githubusercontent.com/62285847/93991782-9fd3d280-fdc7-11ea-84c5-7b7909fe0170.png)](https://youtu.be/afCc1eEg_xc)
-
+클릭시 시연영상 유튜브
+[![ottea](https://user-images.githubusercontent.com/62285847/93991782-9fd3d280-fdc7-11ea-84c5-7b7909fe0170.png)](https://youtu.be/afCc1eEg_xc)
 ## 주제
 
 1. react/ redux 다루기
