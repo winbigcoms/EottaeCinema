@@ -5,6 +5,7 @@ import MainSubsectionComponent from '../Components/MainSubsectionComponent/MainS
 import MainMoviesContainer from '../Containers/MainMoviesContainer';
 import MainHeaderContainer from '../Containers/MainHeaderContainer';
 import MainVideoPortalContainer from '../Containers/MainVideoPortalContainer';
+import FirstLoadingContainer from '../Containers/FirstLoadingContainer';
 
 export default function Mainpage(props) {
   const key = 1;
@@ -24,6 +25,7 @@ export default function Mainpage(props) {
       <MainMoviesContainer />
       <MainSubsectionComponent />
       <MainFooterComponent />
+      <FirstLoadingContainer />
     </>
   );
 }
